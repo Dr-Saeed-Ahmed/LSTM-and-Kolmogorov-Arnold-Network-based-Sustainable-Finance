@@ -1,4 +1,4 @@
-# LSTM-and-Kolmogorov-Arnold-Network-based-Sustainable-Finance
+# LSTM and Kolmogorov-Arnold Network based Sustainable Finance
 
 This package reproduces every number, table, and figure in the revised manuscript
 from the raw returns file. It was built to replace the earlier mixed 6-asset/13-asset
