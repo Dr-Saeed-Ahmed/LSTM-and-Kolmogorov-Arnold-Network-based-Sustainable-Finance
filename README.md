@@ -50,9 +50,3 @@ python 06_make_figures.py
 - ML: 60/20/20 chronological split; features standardized on training data only;
   5 seeds per deep model; Diebold–Mariano tests vs the persistence benchmark
 
-## Data-quality note
-8 bad ticks were detected and neutralized (see results/cleaning_audit.csv):
-REMX (-40.3%; −109.9%/+109.2%), SUSA (±69%), DSI (±69%), THNQ (-27.4%).
-A −109.9% daily return is impossible; the ± pairs are bad-print-and-reversal
-patterns. PLEASE verify these 8 prints against your original price source -
-if the vendor provides corrected prices, recompute returns and re-run the pipeline.
